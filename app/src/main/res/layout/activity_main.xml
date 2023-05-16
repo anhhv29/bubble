@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start_bubble"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Start Bubble"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/increase_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="INCREASE NOTIFICATIONS" />
+
+    <Button
+        android:id="@+id/decrease_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="DECREASE NOTIFICATIONS" />
+
+    <Button
+        android:id="@+id/change_icon_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="CHANGE ICON" />
+
+    <Button
+        android:id="@+id/restore_icon_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="RESTORE ICON" />
+
+    <Button
+        android:id="@+id/toggle_expansion_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="TOGGLE EXPANSION" />
+
+</LinearLayout>
